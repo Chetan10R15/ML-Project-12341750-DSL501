@@ -43,7 +43,7 @@ python demo.py --feedback    # Your model (with feedback)
 
 All files are **ready to use**:
 
-1. **`main.py`** - Complete training pipeline
+1. **`main_2.py`** - Complete training pipeline
 2. **`visualizations.py`** - Full visualization suite  
 3. **`demo.py`** - Interactive demos
 4. **`requirements.txt`** - Dependencies
@@ -302,7 +302,7 @@ Ready for real-world deployment."
 
 ### Issue: "CUDA out of memory"
 ```python
-# Edit main.py, line ~30:
+# Edit main_2.py, line ~30:
 batch_size = 1  # Reduce from 2
 ```
 
@@ -335,7 +335,7 @@ pip install --upgrade torch transformers pandas numpy matplotlib seaborn tqdm
 Before submission/demo:
 
 - [ ] Run `pip install -r requirements.txt`
-- [ ] Run `python main.py` (completes without errors)
+- [ ] Run `python main_2.py` (completes without errors)
 - [ ] Check `models/` folder has 3 `.pt` files
 - [ ] Run `python visualizations.py` (creates 4 plots)
 - [ ] Check `results/plots/` has 4 PNG files
@@ -364,7 +364,7 @@ Before submission/demo:
 
 You've successfully completed when:
 
-1. ✅ `python main.py` trains all 3 models
+1. ✅ `python main_2.py` trains all 3 models
 2. ✅ `python visualizations.py` creates 4 plots
 3. ✅ Baseline demo shows it IGNORES feedback
 4. ✅ Your demo shows it HANDLES feedback
@@ -388,6 +388,4 @@ You've successfully completed when:
 - Visualizations will be generated
 - Demos are ready to show
 
-**This is a complete, working ML project!** 🎊
-
-Good luck with your presentation! 🎓
+**This is a complete, working ML project!**
