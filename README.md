@@ -48,6 +48,7 @@ All files are **ready to use**:
 3. **`demo.py`** - Interactive demos
 4. **`requirements.txt`** - Dependencies
 5. **`README.md`** - This file
+6. **'app.py'** - interactive streamlit chat demo
 
 ---
 
@@ -389,3 +390,4 @@ You've successfully completed when:
 - Demos are ready to show
 
 **This is a complete, working ML project!**
+
